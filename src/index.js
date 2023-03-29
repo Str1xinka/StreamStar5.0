@@ -1,8 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './navbar';
-import Layers from './layers';
+import Navbar from './navbar/navbar';
+import Layers from './Layers/layers';
+import Preview from './Preview/preview';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -12,8 +13,9 @@ root.render(
   <React.StrictMode>
     
     <Navbar />
+    <Preview/>
     <Layers />
-  
+    
   </React.StrictMode>
 );
 
