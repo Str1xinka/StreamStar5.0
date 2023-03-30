@@ -17,7 +17,7 @@ function Preview() {
      <div class="flex left-990 bottom-605 absolute">
        <ul>
          <li class="bg-black text-gray-500 p-6">Layer 1</li>
-         <li class="bg-black text-gray-500 p-6">Layer 2</li>
+         <li class="bg-black text-gray-500 p-6">Layer</li>
          <li class="bg-black text-gray-500 p-6 w-28">Layer 5</li>
        </ul>
      </div>
