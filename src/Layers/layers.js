@@ -4,8 +4,8 @@ import '../../src/index.css';
 function Layers() {
   return (
            
-    <body className='bg-streamstargray h-screen'>
-    <div>  
+  
+    <div class= "bg-streamstargray bg-cover overflowx-hidden relative min-h-screen">  
     <header class="flex  bg-streamstargray">
      <div class=" pt-4 pl-14 text-gray-500 text-xl">LAYERS</div>
     
@@ -32,7 +32,7 @@ function Layers() {
        <button class="bg-streamstarbuttonbackground text-gray-500 px-4 py-2 mb-2">CLEAR</button>
      </div>
    
-     <div class=" w-48 h-64 p-4 pt-11 text-center">
+     <div class=" w-48 h-64 p-4 pt-11 text-center bg-streamstargray">
        <ul>
          <li class="bg-gray-400 text-black mt-8 p-4 mb-2 ">Q-BANK-A </li>
          <li class="bg-black text-gray-500 p-4 mb-2 ">Q-BANK-B </li>
@@ -42,7 +42,7 @@ function Layers() {
        </ul>
        </div>
        </div>
-       </body>
+       
      
   );
 }

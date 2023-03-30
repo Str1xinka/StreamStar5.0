@@ -14,7 +14,15 @@ module.exports = {
         ,'navbarblack': '#0E0E0E'
       
     },
- 
+    extend: {
+        spacing: {
+          '391': '391px',
+          '1093': '1093px',
+          '892': '892px',
+          '501': '501px'
+        }
+    }
+    
   },
   plugins: [],
 }

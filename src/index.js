@@ -13,8 +13,8 @@ root.render(
   <React.StrictMode>
     
     <Navbar />
-    <Preview/>
     <Layers />
+    <Preview/>
     
   </React.StrictMode>
 );
