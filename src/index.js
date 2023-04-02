@@ -4,6 +4,7 @@ import './index.css';
 import Navbar from './navbar/navbar';
 import Layers from './Layers/layers';
 import Preview from './Preview/preview';
+import Streams from './Streams/streams';
 
 import reportWebVitals from './reportWebVitals';
 
@@ -15,7 +16,8 @@ root.render(
     <Navbar />
     <Layers />
     <Preview/>
-    
+    <Streams/>
+
   </React.StrictMode>
 );
 
