@@ -21,7 +21,7 @@ function Preview() {
       
     <div class="  ">
     <ul>
-        <li class="bg-black  text-gray-500  p-4 m-1 text-xs "> <img  class="flex relative left-6    w-8 " src={directcut} alt="" ></img>DIRECT CUT </li>
+        <li class="bg-black  text-gray-500  p-4 m-1 text-xs "> <img  class="flex relative left-6    w-8 " src={directcut} alt="" ></img>DIRECT CUT</li>
         <li class="bg-black text-gray-500 p-4  m-1">CROSSFADE</li>
         <li class="bg-black text-gray-500 p-4 m-1 ">TRANSITON </li>
        
