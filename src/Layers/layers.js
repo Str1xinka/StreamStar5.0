@@ -27,20 +27,23 @@ function Layers() {
          <li class="bg-black text-gray-500 p-4 mb-2   ">Layer 5</li>
        </ul>
      </div>
-     <div class=" w-48 h-32 pt-24 text-center flex flex-row justify-center">
-       <button class="bg-streamstarbuttonbackground text-gray-500 px-4 py-2  mb-2">ADD</button>
-       <button class="bg-streamstarbuttonbackground text-gray-500 px-4 py-2 mb-2">CLEAR</button>
+     <div class=" w-48 h-32 pt-24 bottom-2 relative text-center flex flex-row justify-center">
+       <button class="bg-streamstarbuttonbackground text-streamstartext m-1  pr-6 pl-4 pb-4 h-16 py-2 text-center font-bold mb-2">ADD</button>
+       <button class="bg-streamstarbuttonbackground text-streamstartext m-1 px-4 h-16 py-2 font-bold mb-2">CLEAR</button>
      </div>
-   
-     <div class=" w-48 h-64 p-4 pt-11 text-center bg-streamstargray">
+       <div class="relative top-8 left-4 font-bold text-streamstartext">Q-BANKS / ACTIONS </div>
+     <div class=" w-48 h-64 p-4 pt-2 text-center bg-streamstargray">
        <ul>
          <li class="bg-gray-400 text-black mt-8 p-4 mb-2 ">Q-BANK-A </li>
          <li class="bg-black text-gray-500 p-4 mb-2 ">Q-BANK-B </li>
          <li class="bg-black text-gray-500 p-4 mb-2 ">Q-BANK-C </li>
          <li class="bg-black text-gray-500 p-4 mb-2 ">ACTIONS-A</li>
          <li class="bg-black text-gray-500 p-4 mb-2 ">ACTIONS-B</li>
+         <li class="bg-streamstargray2 text-gray-500 p-4 mb-2 font-bold  "> CLEAR</li>
        </ul>
+       
        </div>
+       
        </div>
        
      

@@ -12,7 +12,7 @@ module.exports = {
       ,'streamstartext': ' #9A9797'
         ,'streamstarbuttonbackground': '#151315'
         ,'navbarblack': '#0E0E0E'
-      
+        ,'streamstargray2': '#141214'
     },
     extend: {
         spacing: {
@@ -33,6 +33,7 @@ module.exports = {
           '246': '243px',
           '230': '242px',
           '88': '86px',
+          '22': '22px',
       
          
         },
