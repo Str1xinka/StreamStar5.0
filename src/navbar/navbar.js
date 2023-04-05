@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+
 import './App.css';
-import calendar from './calendar.png'
-import data from './data.png'
-import house from './house.png'
-import play from './play.png'
-import streamstar from './streamstar.png'
+import calendar from './imgs/calendar.png'
+import data from './imgs/data.png'
+import house from './imgs/house.png'
+import play from './imgs/play.png'
+import streamstar from './imgs/streamstar.png'
 function Navbar() {
   return (
        <nav className="flex bg-navbarblack h-16 ">

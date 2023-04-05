@@ -6,8 +6,8 @@ import playbutton1 from './playbutton1.png'
 function Preview() {
   return (
            
-    
-<div class=" flex bottom-892 left-48 relative overflow-hidden">   
+ 
+<div class=" flex bottom-892 left-48 relative">   
   <div class=" border-b-6 border-b-green-500">
     <img class="" src={stream1} alt="" style={{ width: '700px', height: '430px' }}></img>
   </div>
@@ -50,7 +50,6 @@ function Preview() {
   </div>
  
 </div>
-
 
 
     

@@ -5,16 +5,24 @@ import Navbar from './navbar/navbar';
 import Layers from './Layers/layers';
 import Preview from './Preview/preview';
 import Streams from './Streams/streams';
+import Q_bank from './Layers/q_bank';
+import Buttons from './Layers/_buttons';
+import Header from './Layers/header';
+
 
 import reportWebVitals from './reportWebVitals';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-    <Navbar />
-    <Layers />
+    <Navbar/>
+    <Header/>
+    <Layers/>
+    <Buttons/>
+    <Q_bank/>
     <Preview/>
     <Streams/>
 
