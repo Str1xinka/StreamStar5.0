@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import Navbar from './navbar/navbar';
-import Layers from './Layers/layers';
-import Preview from './Preview/preview';
-import Streams from './Streams/streams';
-import Q_bank from './Layers/q_bank';
-import Buttons from './Layers/_buttons';
-import Header from './Layers/header';
+import Navbar from './features/navbar/navbar';
+import Layers from './mix_layers//Layers/layers';
+import Stream1 from './Preview/stream1/stream1';
+import Bottom from './Streams/bottom';
+import Q_bank from './mix_layers//q_bank/q_bank';
+import Buttons from './mix_layers//_buttons/_buttons';
+import Header from './mix_layers//header/header';
+import MidleBar from './Preview/midlebar/midlebar'
+import Stream2 from './Preview/stream2/stream2'
+import Top from './Streams/top'
 
 
 import reportWebVitals from './reportWebVitals';
@@ -23,8 +26,12 @@ root.render(
     <Layers/>
     <Buttons/>
     <Q_bank/>
-    <Preview/>
-    <Streams/>
+    <Stream1/>
+    <MidleBar/>
+    <Stream2/>
+    <Top/>
+    <Bottom/>
+
 
   </React.StrictMode>
 );

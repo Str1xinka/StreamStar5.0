@@ -1,5 +1,4 @@
 
-import './App.css';
 import calendar from './imgs/calendar.png'
 import data from './imgs/data.png'
 import house from './imgs/house.png'
